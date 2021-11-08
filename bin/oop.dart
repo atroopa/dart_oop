@@ -1,3 +1,7 @@
-void main(List<String> arguments) {
-  print('Hello world!');
+class Student{
+  String name   = "";
+  String family = "";
+  int    age    = 0;
+  int    phone  = 0;
+
 }
