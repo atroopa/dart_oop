@@ -1,6 +1,12 @@
 import 'oop.dart';
 
-void main(List<String> args) {
-  var student = Student();
-  print(student.name);
+void main() {
+
+  ///
+  var student = new Student();
+  student.phonNumber_set = 123456789;
+  
+  print(student.phonNumber_get);
+
+
 }
