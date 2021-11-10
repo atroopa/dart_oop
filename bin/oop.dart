@@ -18,3 +18,18 @@ class Student{
   }
 
 }
+/////////////////////////////////////////////////////
+class Information{
+
+  String name     = "";
+  String family   = "";
+  int    age      = 0;
+  String phone    = "";
+
+  hello(){
+    print("Hello $name");
+  }
+
+}
+
+class skill extends Information{}
