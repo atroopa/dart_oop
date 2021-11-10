@@ -2,7 +2,7 @@ import 'oop.dart';
 
 void main() {
 
-  ///
+  //
   var student = new Student();
   student.phonNumber_set = 123456789;
   
