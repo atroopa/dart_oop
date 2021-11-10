@@ -6,10 +6,12 @@ class Student{
   int    _phone  = 0;
 
   //Seter
-  set phonNumber_set(var value)=> this._phone = value;
+  // ignore: non_constant_identifier_names
+  set phonNumber_set(var value)=> _phone = value;
 
   // Geter
-  get phonNumber_get=> (this._phone);
+  // ignore: non_constant_identifier_names
+  get phonNumber_get=> (_phone);
 
 
 // Methods
