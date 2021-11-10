@@ -58,11 +58,18 @@ class Vehicle{
 //////////////////////////////////////////
 class Car extends Vehicle{
   int price = 0;
-
+  //
   Car(String model , int year , this.price) :super(model,year);
-
+  
+  //
   String showInputs(){
     return("\n the Car Model is : $model it Produced In $year and price is $price");
   }
 
+  //
+  @override
+  String showText(){
+    return("Hello from $model");
+  }
+  
 }

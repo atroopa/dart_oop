@@ -15,5 +15,10 @@ void main() {
   var person2 = new Education();
   person2.message();
 
+  var pride = Car('111' , 2017 , 150);
+  var shower  = pride.showInputs();
+  print(shower);
+  print(pride.showText());
+
 
 }
