@@ -1,4 +1,5 @@
 name: oop
+auther: omid hajavi
 description: A simple command-line application.
 version: 1.0.0
 # homepage: https://www.example.com
@@ -12,3 +13,8 @@ environment:
 
 dev_dependencies:
   lints: ^1.0.0
+  mysql1: any
+  password_strength: any
+  mailto: any
+  string_validator: any
+  persian_number_utility: any
