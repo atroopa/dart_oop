@@ -31,22 +31,22 @@ main() async{
     }
     );
 
-  Stream strm = examplesStream(3000000);
-  await for (var s in strm){
-    File file = File('text.txt');
-    IOSink sink = file.openWrite(mode: FileMode.append);
-    sink.add(utf8.encode("$s\n"));
-    await sink.flush();
-    await sink.close();
-  }  
+  // Stream strm = examplesStream(3000000);
+  // await for (var s in strm){
+  //   File file = File('text.txt');
+  //   IOSink sink = file.openWrite(mode: FileMode.append);
+  //   sink.add(utf8.encode("$s\n"));
+  //   await sink.flush();
+  //   await sink.close();
+  // }  
 
-  File file = File("text.txt");
-  Stream<List<int>> fileStream = file.openRead();
-  fileStream.transform(utf8.decoder).transform(LineSplitter()).listen(
-    (str) => {print(str) }, 
-    onDone: () => print("Done Reading File"),
-    onError: (e) => e.toString() 
-    );
+  // File file = File("text.txt");
+  // Stream<List<int>> fileStream = file.openRead();
+  // fileStream.transform(utf8.decoder).transform(LineSplitter()).listen(
+  //   (str) => {print(str) }, 
+  //   onDone: () => print("Done Reading File"),
+  //   onError: (e) => e.toString() 
+  //   );
       
 
 
