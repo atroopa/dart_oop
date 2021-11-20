@@ -1,3 +1,5 @@
+import 'dart:developer';
+import 'dart:ffi';
 import 'dart:io';
 import 'dart:async';
 import 'package:galileo_sqljocky5/constants.dart';
@@ -42,6 +44,8 @@ import 'package:galileo_sqljocky5/public/results/results.dart';
 import 'package:galileo_sqljocky5/public/results/row.dart';
 import 'package:galileo_sqljocky5/sqljocky.dart';
 import 'package:galileo_sqljocky5/utils/buffer.dart';
+import 'package:password_strength/password_strength.dart';
+import 'package:string_validator/string_validator.dart';
 Future main() async{
 
 
@@ -53,31 +57,53 @@ Future main() async{
     db: "dart",
   );
 
+
+
+
+  // mysql connection
+  var conn = await MySqlConnection.connect(s);
+
+
+  while(true){
+
   //User Commend Line
   stdout.writeln("************* \n Welcome to Dart Commendline Registery\n ************* \n Please inter Your Username : ");
-  String? username = stdin.readLineSync();
+  final username = stdin.readLineSync();
 
   stdout.writeln("Pleas inter your Password:");
-  String? password = stdin.readLineSync();
+  final password = stdin.readLineSync();
 
   stdout.writeln("Please Confirm the Password!");
-  var cpass = stdin.readLineSync();
+  final cpass = stdin.readLineSync();
+    
+  var passStrenght = estimatePasswordStrength(password.toString());
+    
+
+    if( passStrenght > 0.3 && password == cpass){
+      
+      var insetData =  await conn.execute("INSERT INTO `admin` (`id`, `username`, `password`) VALUES (NULL, '$username', '$password')");
+      stdout.writeln("Your Account Created Succecful !");
+      break;
+        
+    }else if (passStrenght < 0.3) {
+      print(" \n Your Password is Weak please try again! \n");
+      
+    }else{
+      print(" \n Your Password is not Match Please Try Again! \n");
+      
+    }
 
 
- // Mysql Query
-  var conn = await MySqlConnection.connect(s);
-  if (password == cpass){
-    var insetData =  await conn.execute("INSERT INTO `admin` (`id`, `username`, `password`) VALUES (NULL, '$username', '$password')");
   }
 
+  // // mysql select db
   var results = await conn.execute('select username, password from admin');
 
   results.forEach((Row row) {
-    // Access columns by index
-    print('userName: ${row[0]}, Password: ${row[1]}');
-    // Access columns by name
-    //print('Name: ${row.name}, email: ${row.email}');
+  // Access columns by index
+  print('\n ----------------------------------------------------------------------------------------- \n |    userName    |    ${row[0]}  ||    Password:    |    ${row[1]}    |');
+  // // Access columns by name
+  // //print('Name: ${row.name}, email: ${row.email}');
   });
   
 }
-
