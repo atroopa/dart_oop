@@ -22,6 +22,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.1"
+  galileo_sqljocky5:
+    dependency: "direct dev"
+    description:
+      name: galileo_sqljocky5
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
+  galileo_typed_buffer:
+    dependency: transitive
+    description:
+      name: galileo_typed_buffer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   lints:
     dependency: "direct dev"
     description:
@@ -99,6 +113,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.3.0"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.0"
   typed_data:
     dependency: transitive
     description:

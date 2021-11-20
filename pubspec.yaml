@@ -18,3 +18,4 @@ dev_dependencies:
   mailto: any
   string_validator: any
   persian_number_utility: any
+  galileo_sqljocky5: ^3.0.0
