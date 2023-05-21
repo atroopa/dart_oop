@@ -1,11 +1,13 @@
 
 
-vless://4b5c43d2-20e5-4c0c-e194-c71ea39d63b7@mci.kotala.cloud:2083?mode=gun&security=tls&encryption=none&type=grpc&serviceName=&sni=donalld.kotala.cloud#%40DoNaLD_VPN+J4
 
 
 vmess://eyJhZGQiOiIxNTkuNjkuMTk1LjEzMSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6ImJtaS5pciIsImlkIjoiOWQ3M2UzYjktYmVmNy00ZWRiLWM4M2EtN2E4NjQxOTcxMDQ2IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjcxODIiLCJwcyI6IkRvTmFMRF9WUE5oaDI1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiJtdG4xLmRvbmFsZDIuc2hvcCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6ImJtaS5pciIsImlkIjoiNGExZGM3YjQtNWI5Ny00NzFlLWFiNGQtNzNmZTBhMGZlOWY5IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDgxMDIiLCJwcyI6Ii1ARG9OYUxEX1ZQTiBTMTcxIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJodHRwIiwidiI6IjIifQ==
 
+
+
+vless://e22c9092-a086-4c40-c082-c2066e28e155@mt.donaldvpn.sbs:18388?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%40DoNaLD_VPN+IRC-24
 
 
