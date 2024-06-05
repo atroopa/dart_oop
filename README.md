@@ -2,14 +2,13 @@
 this code is my pracrices about object orianted programing on dart dev
 
 
-vless://aa81e188-a979-411e-a10b-08287646cc43@1-join.freev2alpha.cfd:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vl26.rnd.biz.id&type=ws&sni=vl26.rnd.biz.id#Worker+MCI
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxZ3BkeXpIajhyWlc5ZkR4eGtVSFJJ@217.196.103.206:29312#Dr.s+irancell+9
 
 
-vmess://eyJ2IjoyLCJwcyI6IjIzM2JveS10Y3AtMTc4LjMzLjI1NC4xNzAiLCJhZGQiOiIxNzguMzMuMjU0LjE3MCIsInBvcnQiOiIzMDgwOCIsImlkIjoiMTExODk4MmUtNDEyZi00MGRmLThkMTQtYzE1ZjFiNTc5OTkwIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwicGF0aCI6IiJ9
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTZ0ZMVzF4VXVUT0JaZkJjbEJQMHhH@103.75.199.178:10340/?outline=1
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@23.162.200.28:3389#Dr.s+irancell+8
 
 
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.samanehha.co:443#Dr.s+irancell+7
 
 
 
