@@ -1,6 +1,8 @@
 # dart_oop
 this code is my pracrices about object orianted programing on dart dev
 
+https://why.kenisti.com/get/qK_H9hoAAQxJirGK6jS5uoH_pn0?v=2
+
 
 vless://d65cc14c-f53f-4fe2-b262-97856601319c@82.39.171.148:443?security=reality&encryption=none&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=c39cc7310a#V2ray_Alpha%F0%9F%9B%A4%EF%B8%8F%201
 vless://f0dc4d4f-c956-0002-bc3a-021424b8e879@192.142.23.99:443?security=reality&encryption=none&pbk=6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=jwtdecoder.xyz&sid=1c3e8241a8743df9#V2ray_Alpha%F0%9F%9B%A4%EF%B8%8F%202
